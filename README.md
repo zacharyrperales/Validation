@@ -18,7 +18,7 @@ https://youtrack.jetbrains.com/issue/IDEA-294863/Thymeleaf-plugin-cant-resolve-a
 ## Issue
 I ran into complications with input validation via Hibernate Validator and feeding the resulting errors to BindingResult which needs to be looked at further.
 
-## Solution
+## Solution(s)
 Using the Spring default Validator with the Java Common Annotation Module works if you also exclude Hibernate Validator. This is not an ideal solution though as the Java Common Annotation Module was deprecated in Java 11, and the Spring default Validator is missing annotations included in Hibernate Validator. 
 
 ### References
