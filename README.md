@@ -9,14 +9,14 @@ https://stackoverflow.com/q/38710585/18972352
 One solution is to declare external variables in comment annotation by specifying type. This workaround is unhelpful and possibly even detrimental for debugging purposes, however.
 Another/Other solution(s) may be downgrading from IntelliJ Ultimate 2022.2/2022.1 to Intellij Ultimate < 2022.1, or/and downgrading/upgrading from Spring Boot 2.7.0.  
   
-I have confirmed that this bug is fixed when using Java 18, Spring 2.6.8, and IntelliJ Ultimate 2022.1. It appears to be an issue with Spring Boot 2.7.0 but more testing is needed to confirm this. I will share the correct solution on StackOverflow and JetBrains Bug Tracking message board, YouTrack, when I narrow this down.
+I have confirmed that this bug is fixed when using Java 18, Spring 2.6.8, and IntelliJ Ultimate 2022.1. It appears to be an issue with Spring Boot 2.7.0 but more testing is needed to confirm this. I will share the correct solution on StackOverflow and JetBrains bug tracking message board, YouTrack, when I narrow this down.
 
 ### References
 https://stackoverflow.com/a/44804086/18972352  
 https://youtrack.jetbrains.com/issue/IDEA-294863/Thymeleaf-plugin-cant-resolve-any-reference#focus=Comments-27-6113490.0-0
 
 # Input Validation
-## Issue
+## IssueRe
 I ran into complications with input validation via Hibernate Validator and feeding the resulting errors to BindingResult which needs to be looked at further.
 
 ## Solution(s)
