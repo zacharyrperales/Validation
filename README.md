@@ -13,7 +13,7 @@ Another/Other solution(s) may be downgrading from Intellij Ultimate 2022.2/2022.
 https://stackoverflow.com/a/44804086/18972352  
 https://youtrack.jetbrains.com/issue/IDEA-294863/Thymeleaf-plugin-cant-resolve-any-reference#focus=Comments-27-6113490.0-0
 
-# Validation
+# Input Validation
 ## Issue
 I ran into complications with input validation via Hibernate Validator and feeding the resulting errors to BindingResult which needs to be looked at further.
 
