@@ -7,7 +7,8 @@ https://youtrack.jetbrains.com/issue/IDEA-205382/Spring-MVC-Thymeleaf-model-attr
 https://stackoverflow.com/q/38710585/18972352
 ## Solution(s)
 One solution is to declare external variables in comment annotation by specifying type. This workaround is unhelpful and possibly even detrimental for debugging purposes, however.
-Another/Other solution(s) may be downgrading from Intellij Ultimate 2022.2/2022.1 to Intellij Ultimate < 2022.1, or/and downgrading/upgrading from Spring Boot 2.7.0.  
+Another/Other solution(s) may be downgrading from IntelliJ Ultimate 2022.2/2022.1 to Intellij Ultimate < 2022.1, or/and downgrading/upgrading from Spring Boot 2.7.0.
+This bug is fixed when using Java 18, Spring 2.6.8, and IntelliJ Ultimate 2022.1. It appears to be an issue with Spring 2.7.0 but more testing is needed to confirm this.
 
 ### References
 https://stackoverflow.com/a/44804086/18972352  
