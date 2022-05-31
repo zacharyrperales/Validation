@@ -13,3 +13,14 @@ Another/Other solution(s) may be downgrading from Intellij Ultimate 2022.2/2022.
 ### References
 https://stackoverflow.com/a/44804086/18972352
 https://youtrack.jetbrains.com/issue/IDEA-294863/Thymeleaf-plugin-cant-resolve-any-reference#focus=Comments-27-6113490.0-0
+
+# Validation
+## Issue
+I ran into complications with input validation via Hibernate Validator and feeding the resulting errors to BindingResult which needs to be looked at further.
+
+## Solution
+Using the Spring default Validator with the Java Common Annotation Module works if you also exclude Hibernate Validator. This is not an ideal solution though as the Java Common Annotation Module was deprecated in Java 11, and the Spring default Validator is missing annotations included in Hibernate Validator. 
+
+### References
+https://stackoverflow.com/a/47454789/18972352
+https://stackoverflow.com/a/27824439/18972352
