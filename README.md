@@ -9,7 +9,7 @@ https://stackoverflow.com/q/38710585/18972352
 One solution is to declare external variables in comment annotation by specifying type. This workaround is unhelpful and possibly even detrimental for debugging purposes, however.
 Another/Other solution(s) may be downgrading from IntelliJ Ultimate 2022.2/2022.1 to Intellij Ultimate < 2022.1, or/and downgrading/upgrading from Spring Boot 2.7.0.  
   
-I have confirmed that this bug is fixed when using Java 18, Spring 2.6.8, and IntelliJ Ultimate 2022.1. It appears to be an issue with Spring 2.7.0 but more testing is needed to confirm this.
+I have confirmed that this bug is fixed when using Java 18, Spring 2.6.8, and IntelliJ Ultimate 2022.1. It appears to be an issue with Spring Boot 2.7.0 but more testing is needed to confirm this. I will share the correct solution on StackOverflow and JetBrains Bug Tracking message board, YouTrack, when I narrow this down.
 
 ### References
 https://stackoverflow.com/a/44804086/18972352  
