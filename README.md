@@ -11,6 +11,8 @@ Another/Other solution(s) may be downgrading from IntelliJ Ultimate 2022.2/2022.
   
 I have confirmed that this bug is fixed when using Java 18, Spring 2.6.8, and IntelliJ Ultimate 2022.1. It appears to be an issue with Spring Boot 2.7.0 but more testing is needed to confirm this. I will share the correct solution on StackOverflow and JetBrains bug tracking message board, YouTrack, when I narrow this down.
 
+This bug is present when using > Spring 2.6.8 and > IntelliJ Ultimate 2022.1, including the early access version: 2022.2. It appears to be an issue with > Spring 2.6.8. Spring Initializr is used to create the project. I have not yet tested in Eclipse. 
+
 ### References
 https://stackoverflow.com/a/44804086/18972352  
 https://youtrack.jetbrains.com/issue/IDEA-294863/Thymeleaf-plugin-cant-resolve-any-reference#focus=Comments-27-6113490.0-0
