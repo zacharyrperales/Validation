@@ -1,6 +1,6 @@
-# Thymeleaf & IntelliJ Bug
+# Spring/Thymeleaf & IntelliJ Bug
 ## Issue
-Recent versions of Intellj appear to have a bug in regard to Thymeleaf recognizing model attributes.
+Recent versions of Intellj appear to have a bug in regard to IntelliJ Ultimate recognizing model attributes when using Thymeleaf with Spring.
 ### References
 https://youtrack.jetbrains.com/issue/IDEA-294863/Thymeleaf-plugin-cant-resolve-any-reference  
 https://youtrack.jetbrains.com/issue/IDEA-205382/Spring-MVC-Thymeleaf-model-attributes-are-not-resolved-in-the-included-templates  
