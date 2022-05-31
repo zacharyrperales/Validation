@@ -1,0 +1,9 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <body>
+        <!--/*@thymesVar id="personForm" type="com.example.validation.PersonForm"*/-->
+        <div th:object="${personForm}">
+            <p th:text="'Person (name: ' + *{name} + ', age: ' + *{age} + ', color: ' + *{color} + ', phone number: ' + *{phoneNumber} + ').'" />
+        </div>
+    </body>
+</html>
