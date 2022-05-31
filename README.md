@@ -18,7 +18,7 @@ https://stackoverflow.com/a/44804086/18972352
 https://youtrack.jetbrains.com/issue/IDEA-294863/Thymeleaf-plugin-cant-resolve-any-reference#focus=Comments-27-6113490.0-0
 
 # Input Validation
-## IssueRe
+## Issue
 I ran into complications with input validation via Hibernate Validator and feeding the resulting errors to BindingResult which needs to be looked at further.
 
 ## Solution(s)
