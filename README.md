@@ -9,9 +9,13 @@ https://stackoverflow.com/q/38710585/18972352
 One solution is to declare external variables in comment annotation by specifying type. This workaround is unhelpful and possibly even detrimental for debugging purposes, however.
 Another/Other solution(s) may be downgrading from IntelliJ Ultimate 2022.2/2022.1 to Intellij Ultimate < 2022.1, or/and downgrading/upgrading from Spring Boot 2.7.0.  
   
-I have confirmed that this bug is fixed when using Java 18, Spring 2.6.8, and IntelliJ Ultimate 2022.1. It appears to be an issue with Spring Boot 2.7.0 but more testing is needed to confirm this. I will share the correct solution on StackOverflow and JetBrains bug tracking message board, YouTrack, when I narrow this down.
+This bug is fixed when using Java 18, Spring 2.6.8, and IntelliJ Ultimate 2022.1. It appears to be an issue with Spring Boot 2.7.0 but more testing is needed to confirm this. I will share the correct solution on StackOverflow and JetBrains bug tracking message board, YouTrack, when I narrow this down.
 
-This bug is present when using > Spring 2.6.8 and > IntelliJ Ultimate 2022.1, including the early access version: 2022.2. The issue appears to be independent of both the Java release and the IntelliJ release. It appears to be an issue with > Spring 2.6.8. Spring Initializr is used to create the project. I have not yet tested in Eclipse. 
+This bug is present when using > Spring 2.6.8 and > IntelliJ Ultimate 2022.1, including the early access version: 2022.2. The issue appears to be independent of both the Java release and the IntelliJ release. It appears to be an issue with > Spring 2.6.8. Spring Initializr is used to create the project.  
+
+Eclipse for Enterprise and Web Developers with the Spring Tools 4 and Thymeleaf plugins installed does not support the same level of detail with both the syntax highlighting and documentation of Thymeleaf that IntelliJ Ultimate does. This specific bug therefore is not relevant for Eclipse.  
+
+The best way to proceed is to develop any Spring applications using the Thymeleaf templating engine with Spring version 2.6.8 on IntelliJ Ultimate, and later update the version to 2.70 or the latest milestone version (currently 3.0.0 M3) in your pom.xml or build.gradle file for security purposes due to the possible presence of CVEs (Common Vulnerability and Exposures) in Spring < 2.7.0 / 3.0.0 M3 itself and/or any dependencies of Spring < 2.7.0 / 3.0.0 M3. 
 
 ### References
 https://stackoverflow.com/a/44804086/18972352  
